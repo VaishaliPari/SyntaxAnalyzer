@@ -1,0 +1,21 @@
+P os.type == winN os.arch != 32
+P os.type123 == winP @upper(os.name) == WINDOWS 2K12P @count(os.users) > 20
+P @count(@count(os.users)) > 20P os.java.version version != 8.3.104a
+P @count(@count(os.users)) contains 20
+P os.type == win1,win2,win3
+P os.type == win 1,win 2,win 3
+P @upper(os.name) == @upper(@lower(os.name))
+P os.type == @upper(os.name),@upper(os.type)
+P os.type == WINDOWS 2K12,@upper(os.type)
+PN os.type == win
+En os.type == win
+P os$type == win
+P os.type CONTAINS win
+P os.type >>>> win
+P @count((@count(os.users)) > 20
+P @upper(@count(os.users))) > 20
+P @get(os.users) > 20
+P @count(@get(os.users)) > 20
+P os.java.version Version2 != 8.3.104a
+P os.type == win1,,win2
+P os.type == ,win2
