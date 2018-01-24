@@ -42,3 +42,11 @@ not match
 added
 removed
 ```
+## Compile and Execute
+Use any IDE to run the check package with the analyser.java file in the src folder.
+
+Using commandline: 
+```
+javac check/analyser.java
+java analyser
+```
