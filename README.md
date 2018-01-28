@@ -43,10 +43,12 @@ added
 removed
 ```
 ## Compile and Execute
-Use any IDE to run the check package with the analyser.java file in the src folder.
-
-Using commandline: 
+open a terminal where the src folder and input file in present
+Cmd to compile: 
 ```
-javac check/analyser.java
-java analyser
+javac src/check/analyser.java
+```
+Cmd to execute: 
+```
+java -cp src/ check.analyser
 ```
